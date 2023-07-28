@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FeedBack Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1>Feedback Form</h1>
+    <p>This is a form for giving your own feedback on your own favourite foods.</p>
+    <form name="feedbackForm" onsubmit="return favouriteFood()">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname"><br>
+        <label for="favFoods">What is your favourite food:</label><br>
+        <input type="text" id="favFoods" name="favFoods"><br>
+        <br><input type="submit" value="Submit">
+    </form>
+    <br><p id="testData" style="color: white;"></p>
+    <br>
+    <button class="button button1"><a href="homepage.html" style="text-decoration: none;">HomePage</button>
+    <button class="button button1"><a href="spaghetti.html" style="text-decoration: none;">Spaghetti</button>
+    <button class="button button1"><a href="borger.html" style="text-decoration: none;">Borger</button>
+    <button class="button button1"><a href="pizza.html" style="text-decoration: none;">Pizza</button>
+    <button class="button button1"><a href="chinese.html" style="text-decoration: none;">chinese</button>
+    <button class="button button1"><a href="feedback.html" style="text-decoration: none;">FeedBack</button>
+</body>
+</html>
